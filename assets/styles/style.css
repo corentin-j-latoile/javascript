@@ -1,0 +1,58 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#formulaire>* {
+  display: block;
+  margin: .4rem;
+}
+
+#formulaire>label {
+  font-size: 2rem;
+}
+
+#formulaire>input {
+  border-radius: 8px;
+  width: 32vw;
+  border: 1px solid black;
+  min-height: 3rem;
+  font-size: 2rem;
+}
+
+#submit {
+  background-color: #7b8ecd;
+  color: white;
+}
+
+
+#cards {
+  display: flex;
+  padding: 3rem;
+  gap: 1rem;
+  justify-content: space-around;
+  max-width: 90vw;
+  overflow: scroll;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid black;
+  width: 30vw;
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card>img {
+  border-radius: 8px;
+  height: 80%;
+}
